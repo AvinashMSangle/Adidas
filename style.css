@@ -1,0 +1,36 @@
+@font-face {
+    font-family: AdihausDIN;
+    src: url(--gl-body-font-set-family-functional-8);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    color: white;
+    font-size: 80px;
+    font-family:AdihausDIN;
+    border: 10px;
+
+}
+.left,.right{
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    filter:hue-rotate(325deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background-color: aqua;
+    background-image: url(/assets/left.avif);
+}
+.right{
+    background-color: azure;
+    background-image: url(/assets/right.avif)
+}
